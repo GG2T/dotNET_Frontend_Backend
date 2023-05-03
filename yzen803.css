@@ -1,0 +1,58 @@
+#status{
+    height: 55px;
+    text-align: center;
+}
+a {
+    text-decoration:none;
+
+}
+th{
+    display:inline-block;
+}
+#Rin{
+    border-radius: 10px;
+    margin:0 auto;
+    width: 400px;
+    background: grey;
+    text-align: center;
+}
+#Lin{
+    border-radius: 10px;
+    margin:0 auto;
+    width: 400px;
+    background: grey;
+    text-align: center;
+}
+#Guest1 h6{
+    font-size: 2px;
+}
+#Gin{
+    text-align: center;
+    background: grey;
+    width : 400px;
+    height:230px;
+    border-radius: 10px;
+    margin:0 auto;
+}
+#Gin textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+#Gin input{
+    width: 200px;
+}
+#Gin span{
+    font-size: smaller;
+}
+#getcomments{
+    width:100%;
+    height:auto;
+
+}
+#find{
+    width: 70%;
+}
+#fistaff{
+    height:auto;
+}

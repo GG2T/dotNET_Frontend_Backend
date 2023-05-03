@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Southern Hemisphere Institute of Technology</title>
+    <link rel="stylesheet" href ="yzen803.css">
+    <script src = "yzen803.js"></script>
+    <link rel="icon" href="http://localhost:5000/logo-192x192.png">
+
+</head>
+<body>
+<div id = "status" >
+    <p>
+        <span>Username: </span>
+        <span id = "login_name_out">NotLogin</span>
+        <button id = "login">Login</button>
+        <button id = "logout" style="display: none">Logout</button>
+
+    </p>
+</div>
+<div class="header" style="height:200px">
+    <table>
+        <tr>
+            <th>
+                <img src="http://localhost:5000/api/GetLogo" alt="" style="width: 230px;">
+            </th>
+            <th>
+                <a href="javascript:" id="home">
+                    &#127968;Home &nbsp
+                </a>
+            </th>
+            <th>
+                <a href="javascript:" id="staff">
+                    &#128240;Staff &nbsp
+                </a>
+            </th>
+            <th>
+                <a href="javascript:" id="shop">
+                    &#128722;Institue Shop &nbsp
+                </a>
+            </th>
+            <th>
+                <a href="javascript:" id="regis">
+                    &#128105;User Registration &nbsp
+                </a>
+            </th>
+            <th>
+                <a href="javascript:" id="guest">
+                    &#128214;Guest Book &nbsp
+                </a>
+            </th>
+        </tr>
+    </table>
+
+</div>
+<div id = "home1" class = "pages">
+    <h2 style="text-align: left">
+        Southern Hemisphere Institute of Technology
+    </h2>
+    <hr color =#000000 SIZE = 4>
+    <h6>
+        Southern Hemisphere Institute of Technology is a premiere establishment providing world-class higher education right here in New Zealand. They take pride in what they do to the community at large.
+    </h6>
+   <center><img src="http://localhost:5000/api/GetItemPhoto/522163231" alt="" style="width: 300px"></center>
+    <center><h6>
+        Keeping in mind the safety of you and our staff, all our offerings are now online.
+    </h6></center>
+    <br>
+    <br>
+    <HR align=center width=300 color=#C0C0C0 SIZE=1>
+    <center>@All right reserved. <span id="vv">
+
+    </span></center>
+
+
+</div>
+<div id = "staff1" class="pages"  style="display: none">
+    <h2>
+        Staff
+    </h2>
+
+    <hr color =#000000 SIZE = 4>
+    <div id="fistaff" style="background-color: bisque">
+    </div>
+
+</div>
+<div id = "shop1" class = "pages"  style="display: none">
+    <h2>
+        Products
+    </h2>
+    <hr color =#000000 SIZE = 4>
+    <input id ="find" type="text" placeholder="&#128269;search">
+
+    <div id = "all" style="background-color: bisque">
+
+    </div>
+
+
+
+
+
+
+</div>
+<div id = "Register1" class ="pages"  style="display: none">
+    <h2>
+        Register
+    </h2>
+    <hr color =#000000 SIZE = 4>
+    <div id ="Rin">
+        <br>
+        Username:<input id='Ruser' type="text" name="username" >
+        <br>
+        <br>
+
+        Password:<input id ='rpassword' type="password" name="password">
+        <br>
+        <br>
+        Address:<input id ='raddress' type="text" name="address">
+        <br>
+        <br>
+
+        <button id="enter">Enter</button>
+        <br>
+
+        <br>
+
+
+
+    </div>
+
+
+</div>
+<div id ="Login1" class = "pages"  style="display: none">
+    <h2>
+        Login
+    </h2>
+    <hr color =#000000 SIZE = 4>
+    <div id ="Lin">
+        <br>
+        Username:<input type="text" name="username" id="Luser">
+        <br>
+        <br>
+
+        Password:<input type="password" name="password" id="Lpassword">
+        <br>
+        <br>
+        <button id="loginbt">Login</button>
+        <br>
+        <br>
+    </div>
+
+</div>
+<div id ="Guest1" class = "pages"  style="display: none">
+    <h2>
+        Guest Book
+    </h2>
+    <hr color =#000000 SIZE = 4>
+
+    <h3>Please sign our guest book.</h3>
+
+    <h6>Please respect others when posting comments.</h6>
+    <div id = "Gin">
+        <textarea placeholder="Your comments here" name ="book" id = "Comments" cols="40" rows="10"></textarea>
+        <br><span>Your name: &nbsp;&nbsp;&nbsp;</span>
+        <input placeholder="Enter your name here" id = 'comin'>
+        <button id = combut>Enter</button>
+    </div>
+    <h4>Recent Entries</h4>
+    <iframe id ="getcomments" src="http://localhost:5000/api/GetComments"frameborder="0";>
+
+    </iframe>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
